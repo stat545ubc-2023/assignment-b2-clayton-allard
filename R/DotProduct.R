@@ -1,6 +1,6 @@
-#' Computes the dot product of two vectors x and y. 
+#' @title Computes the dot product of two vectors x and y
 #' 
-#' Throws an error if either vector are non-numeric or contain NA, or if their lengths mismatch. The naming convention of x and y are traditional to represent vectors
+#' @description Throws an error if either vector are non-numeric or contain NA, or if their lengths mismatch. The naming convention of x and y are traditional to represent vectors
 #' 
 #' @param x A numeric vector. 
 #' @param y A numeric vector.

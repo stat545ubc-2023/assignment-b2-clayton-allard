@@ -2,7 +2,7 @@
 % Please edit documentation in R/DotProduct.R
 \name{dot_product}
 \alias{dot_product}
-\title{Computes the dot product of x and y. Throws an error if either vector are non-numeric or contain NA, or if their lengths mismatch.}
+\title{Computes the dot product of two vectors x and y.}
 \usage{
 dot_product(x, y)
 }
@@ -15,5 +15,10 @@ dot_product(x, y)
 The result of the dot product operation.
 }
 \description{
-The naming convention of x and y are traditional to represent vectors
+Throws an error if either vector are non-numeric or contain NA, or if their lengths mismatch. The naming convention of x and y are traditional to represent vectors
+}
+\examples{
+dot_product(c(1, -1), c(2, -1))
+dot_product(c(1, -1, 0), c(2, -1, 1))
+
 }
