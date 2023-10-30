@@ -16,7 +16,7 @@ You can install the development version of vector.operations from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2023/assignment-b2-clayton-allard")
+devtools::install_github("stat545ubc-2023/vector_operations")
 ```
 
 ## Example
